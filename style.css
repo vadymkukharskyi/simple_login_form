@@ -1,0 +1,72 @@
+body{
+margin: 0 auto;
+background: rgb(131,58,180);
+background: linear-gradient(345deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+background-size: 100% 920px;
+}
+ 
+.container{
+ width: 500px;
+ height: 450px;
+ text-align: center;
+ margin: 0 auto;
+ background-color: rgba(44, 62, 80,0.7);
+ margin-top: 160px;
+ font-size: 20px;	
+ color: red;
+ border-radius: 25px;
+}
+
+.texts{
+text-align: center;
+ margin-top: -10px;
+ font-size: 20px;	
+ color: white;
+}
+
+.conteiner_logout{
+ width: 500px;
+ height: 350px;
+ text-align: center;
+ margin: 0 auto;
+ background-color: rgba(44, 62, 80,0.7);
+ margin-top: 200px;
+ font-size: 25px;	
+ color: white;
+  border-radius: 25px;
+}
+ 
+.container img{
+ width: 150px;
+ height: 150px;
+ margin-top: -60px;
+}
+ 
+input[type="text"],input[type="password"]{
+ margin-top: 45px;
+ height: 45px;
+ width: 300px;
+ font-size: 18px;
+ margin-bottom: 20px;
+ background-color: #fff;
+ padding-left: 50px;
+  border-radius: 15px;
+}
+ 
+
+.btn-login{
+ padding: 15px 25px;
+ border: none;
+ background-color: #27ae60;
+ color: #fff;
+   border-radius: 15px;
+}
+
+.btn-logout{
+ padding: 15px 140px;
+ border: none;
+ background-color: #27ae60;
+ color: #fff;
+  margin-top: 100px;
+    border-radius: 15px;
+}
